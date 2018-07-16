@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Luiz Oliveira Portfolio</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+    <div class="row">
+        <div id="containerheaderphoto" class="container-fluid">
+            <div class="container-fluid">
+                <br>
+                <br>
+                <img src="assets/images/adriano2018.jpg" class="img-fluid img-thumbnail rounded mx-auto d-block img1" alt="image">
+                <br>
+                <p> Luiz Oliveira
+                    <br>
+                    <br>
+                    <br> IT consultant
+                    <br>
+                    <br> Project Managment
+                    <br>
+                    <br> Web Development
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+
+            </div>
+        </div>
+        <div id="containerbody" class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">Luiz Oliveira</a>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="portfolio">
+                <div class="row">
+                    <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="page-header">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3">
+                            <img id="trivia" src="assets/images/trivia.jpg" alt="Trivia Game" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3">
+                            <img id="crystal" src="assets/images/crystal.jpg" alt="Rutgers Info Widget" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3">
+                            <img id="movie" src="assets/images/movie.jpg" alt="Movie" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3">
+                            <img id="gifsearch" src="assets/images/gifsearch.jpg" alt="Gif and Movie Search" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3">
+                            <img id="train" src="assets/images/train.jpg" alt="Train" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col-xm-12 col-sm-6 col-md-4 col-lg-3">
+                                <img id="sgg" src="assets/images/sgg.jpg" alt="Super Game Gifts" class="img-fluid" alt="Responsive image">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+
+        <script>            
+                $("#crystal").on("click", function () {
+                  console.log("clicou crystal");
+                  window.open("https://lamoliveira.github.io/unit-4-game/", "Crystal", "toolbar=no,scrollbars=no,resizable=yes,top=50,left=50,width=1000,height=750");
+                }
+                )
+            
+                $("#trivia").on("click", function () {
+                  console.log("clicou trivia");
+                  window.open("https://lamoliveira.github.io/5unit-game/", "Trivia", "toolbar=no,scrollbars=no,resizable=yes,top=50,left=50,width=1000,height=750");
+                }
+                )
+                $("#movie").on("click", function () {
+                  console.log("clicou movie");
+                  window.open("https://lamoliveira.github.io/movietrivia/", "Movie", "toolbar=no,scrollbars=no,resizable=yes,top=50,left=50,width=1000,height=750");
+                }
+                )
+                $("#gifsearch").on("click", function () {
+                  console.log("clicou gifsearch");
+                  window.open("https://lamoliveira.github.io/6unit-buttons/", "6unit", "toolbar=no,scrollbars=no,resizable=yes,top=50,left=50,width=1000,height=750");
+                }
+                )
+                $("#train").on("click", function () {
+                  console.log("clicou train");
+                  window.open("https://lamoliveira.github.io/7unit/", "Train", "toolbar=no,scrollbars=no,resizable=yes,top=50,left=50,width=1000,height=750");
+                }
+                )
+                $("#sgg").on("click", function () {
+                  console.log("clicou sgg");
+                  window.open("https://nferrazza.github.io/Project1", "SGG", "toolbar=no,scrollbars=no,resizable=yes,top=50,left=50,width=1000,height=750");
+                }
+                )
+              </script>
+</body>
+
+</html>
