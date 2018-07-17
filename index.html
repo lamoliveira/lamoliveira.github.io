@@ -1,92 +1,1134 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en" class="no-js">
 
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Luiz Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Sunshine - Responsive vCard Template" />
+  <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Sunshine, portfolio" />
+  <meta name="author" content="lmtheme" />
+  <link rel="shortcut icon" href="favicon.ico">
 
-    <title>Luiz Oliveira Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/transition-animations.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
 
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
-    <div class="row">
-        <div id="containerheaderphoto" class="container-fluid">
-            <div class="container-fluid">
-                <br><br>
-                    <img src="assets/images/adriano2018.jpg" class="img-fluid img-thumbnail rounded mx-auto d-block img1" alt="image">
-                    <br>
-                    <p> Luiz Oliveira
-                        <br> 
-                        <br>
-                        <br>
-                        -IT consultant
-                        <br><br>
-                        -Project Manager
-                        <br><br>
-                        -Web Developer
-                        <br><br>
-                        Connect with Me
-                        <br>
-                        <a href="https://www.facebook.com/kbbtchub" target="_blank"><img class="imgsocial" src="assets/images/facebook.png" alt="Facebook"/></a>
-                            
-                        <a href="mailto://lamoliveira.gmail.com" target="_blank"><img class="imgsocial" src="assets/images/gmail.png" alt="Gmail"/></a>
-                            
-                        <a href="https://www.linkedin.com/in/luiz-adriano-oliveira-262361/" target="_blank"><img class="imgsocial" src="assets/images/linkedin.png" alt="Linkedin"/></a>
-                            
-                        <a href="https://github.com/lamoliveira" target="_blank"><img class="imgsocial" src="assets/images/github.png" alt="Github"/></a>
-                        
-                        <br><br><br><br><br><br>
-                    </p>
-                
-            </div>
-        </div>
-        <div id="containerbody" class="container-fluid">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Luiz Oliveira</a>
-                      
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                            <li class="nav-item">
-                              <a class="nav-link active" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="contato.html">Contact</a>
-                            </li>
-                          </ul>
-                        </div>
-                      </nav>
-                      <div id="p1">
-            <p> <br><br>Brazilian living in Orlando and applying for a USA work visa permit.<br> 
-                <br><br>IT Consultant with a large backgroung in a wide variety of business applications. 
-                <br><br>Particularly interested in New Technologies, Web development, workforce management, Click Software, Telecom, Program/Project Management, Shopping Center, ERP, CRM and Data science.
-                <br><br>Specialties: Program/Project management, ERP, CRM, Data Science, Billing, Telecom</p>
-                <br><br>Acting as remote project manager and functional requirements for new projects in a small Brazilian company and willing to learn a new culture and companies to improve my professional skills.
-            </div>
-        </div>
+  <!-- Loading animation -->
+  <div class="preloader">
+    <div class="preloader-animation">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
     </div>
-    <footer>
-            Copyright
-          </footer>
- 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-        crossorigin="anonymous"></script>
+  </div>
+  <!-- /Loading animation -->
+
+  <div id="page" class="page">
+    <!-- Header -->
+    <header id="site_header" class="header mobile-menu-hide">
+      <div class="my-photo">
+        <img src="images/adriano2018.jpg" alt="image">
+        <div class="mask"></div>
+      </div>
+
+      <div class="site-title-block">
+        <h1 class="site-title">Luiz Oliveira</h1>
+        <p class="site-description">IT Consultant Portfolio</p>
+      </div>
+
+      <!-- Navigation & Social buttons -->
+      <div class="site-nav">
+        <!-- Main menu -->
+        <ul id="nav" class="site-main-menu">
+          <!-- About Me Subpage link -->
+          <li>
+            <a class="pt-trigger" href="#home" data-animation="58" data-goto="1">Home</a>
+            <!-- href value = data-id without # of .pt-page. Data-goto is the number of section -->
+          </li>
+          <!-- /About Me Subpage link -->
+          <!-- About Me Subpage link -->
+          <li>
+            <a class="pt-trigger" href="#about_me" data-animation="59" data-goto="2">About me</a>
+          </li>
+          <!-- /About Me Subpage link -->
+          <li>
+            <a class="pt-trigger" href="#resume" data-animation="60" data-goto="3">Resume</a>
+          </li>
+          <li>
+            <a class="pt-trigger" href="#portfolio" data-animation="61" data-goto="4">Portfolio</a>
+          </li>
+          <!--<li>
+              <a class="pt-trigger" href="#blog" data-animation="58" data-goto="5">Blog</a>
+            </li>-->
+          <li>
+            <a class="pt-trigger" href="#contact" data-animation="59" data-goto="6">Contact</a>
+          </li>
+        </ul>
+        <!-- /Main menu -->
+
+        <!-- Social buttons -->
+        <ul class="social-links">
+          <!--<li><a class="tip social-button" href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li> -->
+          <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+          <li>
+            <a class="tip social-button" href="https://www.facebook.com/kbbtchub" title="Facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a class="tip social-button" href="http://plus.google.com/+AdrianoOliveiraLuiz" title="Google Plus">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+          <li>
+            <a class="tip social-button" href="https://github.com/lamoliveira" title="Github Repo">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a class="tip social-button" href="https://www.linkedin.com/in/luiz-adriano-oliveira-262361/" title="Linkedin Profile">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <!--<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>-->
+          <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
+          <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
+        </ul>
+        <!-- /Social buttons -->
+      </div>
+      <!-- Navigation & Social buttons -->
+    </header>
+    <!-- /Header -->
+
+    <!-- Mobile Header -->
+    <div class="mobile-header mobile-visible">
+      <div class="mobile-logo-container">
+        <div class="mobile-site-title">Luiz Oliveira</div>
+      </div>
+
+      <a class="menu-toggle mobile-visible">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- /Mobile Header -->
+
+    <!-- Main Content -->
+    <div id="main" class="site-main">
+      <!-- Page changer wrapper -->
+      <div class="pt-wrapper">
+        <!-- Subpages -->
+        <div class="subpages">
+
+          <!-- Home Subpage -->
+          <section class="pt-page pt-page-1 section-with-bg section-paddings-0" style="background-image: url(images/clients/resume.png);"
+            data-id="home">
+            <div class="home-page-block-bg">
+              <div class="mask"></div>
+            </div>
+            <div class="home-page-block">
+              <div class="v-align">
+                <h2>Luiz Oliveira</h2>
+                <div id="rotate" class="text-rotate">
+                  <div>
+                    <p class="home-page-description">IT Consultant</p>
+                  </div>
+                  <div>
+                    <p class="home-page-description">Developer</p>
+                  </div>
+                  <div>
+                    <p class="home-page-description">Project Manager</p>
+                  </div>
+                  <div>
+                    <p class="home-page-description">Scrum Master</p>
+                  </div>
+                  <div>
+                    <p class="home-page-description">Product Owner</p>
+                  </div>
+                </div>
+
+                <div class="block end" style="text-align: center">
+                  <ul class="info-list">
+                    <li>
+                      <span class="title">Age</span>
+                      <span class="value">45</span>
+                    </li>
+                    <li>
+                      <span class="title">Address</span>
+                      <span class="value">11761 Fitzgerald Butler Rd, Windermere</span>
+                    </li>
+                    <li>
+                      <span class="title">e-mail</span>
+                      <span class="value">
+                        <a href="mailto:lamoliveira@gmail.com">lamoliveira@gmail.com</a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="title">Phone</span>
+                      <span class="value">+1 407 427 4178</span>
+                    </li>
+                    <!-- <li><span class="title">Freelance</span><span class="value available">Available</span></li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End of Home Subpage -->
+
+          <!-- About Me Subpage -->
+          <section class="pt-page pt-page-2" data-id="about_me">
+            <div class="section-title-block">
+              <h2 class="section-title">About Me</h2>
+              <h5 class="section-description">Creative Doer, Problem Solver, Resilient</h5>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="general-info">
+                  <h3>I am IT Consultant/Developer, Project manager, Scrum Master</h3>
+                  <p>
+                    <br>Brazilian living in Orlando and applying for a USA work visa permit.
+                    <br>IT Consultant with a large backgroung in a wide variety of business.
+                    <br>Particularly interested in New Technologies, Web development, workforce Mgmt, Click Software, Telecom/Media/Entertainment, Program/Project
+                    Management, Shopping Center, ERP, CRM and Data Science.
+                    <br>Specialties: Program/Project management, ERP, CRM, Data Science, Bill Telecom.
+                    <br>Acting as remote project manager and functional requirements for new projects in a small Brazilian company
+                    and willing to learn a new culture and companies to improve my professional skills in USA.
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="block-title">
+                  <h3>Testimonials</h3>
+                </div>
+                <div class="testimonials owl-carousel">
+                  <!-- Testimonial 2 -->
+                  <div class="testimonial-item">
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-text">
+                        <p>"Working with Luiz Oliveira was a great experience. This is a person that really knows alot CRM solutions"</p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                    <!-- Testimonial Author -->
+                    <div class="testimonial-credits">
+                      <!-- Picture -->
+                      <div class="testimonial-picture">
+                        <img src="https://media.licdn.com/dms/image/C4D03AQETKO8nu8UFCQ/profile-displayphoto-shrink_800_800/0?e=1537401600&v=beta&t=VDkZyH3q26xaa8qh9UZuzqaJiqQo4yS9Frt7hWV6e3c"
+                          alt="">
+                      </div>
+                      <!-- /Picture -->
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <p class="testimonial-author">Carlos José Vieira Martins</p>
+                        <p class="testimonial-firm">Adjunct Professor at Federal Fluminense University</p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial author information -->
+                  </div>
+                  <!-- End of Testimonial 2 -->
+
+                  <!-- Testimonial 2 -->
+                  <div class="testimonial-item" style="width:100%">
+                    <!-- Testimonial Content -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-text">
+                        <p>"Working with Adriano was a great experience. This is a person that really knows alot CRM solutions."</p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial Content -->
+                    <!-- Testimonial Author -->
+                    <div class="testimonial-credits">
+                      <!-- Picture -->
+                      <div class="testimonial-picture">
+                        <img src="https://media.licdn.com/dms/image/C4D03AQHS9o-k9iAbQQ/profile-displayphoto-shrink_800_800/0?e=1537401600&v=beta&t=NhMcwpEqipeCYhnhEjbkZCLzNwgJrC4IDmU2Yuf093g"
+                          alt="">
+                      </div>
+                      <!-- /Picture -->
+                      <!-- Testimonial author information -->
+                      <div class="testimonial-author-info">
+                        <p class="testimonial-author">Mauricio Longo</p>
+                        <p class="testimonial-firm">Digital strategist, Author and Speaker</p>
+                      </div>
+                    </div>
+                    <!-- /Testimonial author information -->
+                  </div>
+                  <!-- End of Testimonial 2 -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Services block -->
+            <div class="block-title">
+              <h3>Services</h3>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="service-block">
+                  <div class="service-info">
+                    <img src="images/service/web_design.png" alt="Responsive Design">
+                    <h4>Consulting</h4>
+                    <p>Fast assessment of key business goals to help transform your organization through innovative industry
+                      services </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="service-block">
+                  <div class="service-info">
+                    <img src="images/service/copywrite.png" alt="Copywriter">
+                    <h4>Development</h4>
+                    <p>Implement end to end applications with transparency navigation since conception to delivery</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="service-block">
+                  <div class="service-info">
+                    <img src="images/service/ecommerce.png" alt="E-Commerce">
+                    <h4>Solutions</h4>
+                    <p>Help to implement market solutions in a fast pace and with change management efforts to guarantee your
+                      investment.(ERP, CRM, MKT, Sales, Web and Mobile MKT and innovative IT solutions)</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="service-block">
+                  <div class="service-info">
+                    <img src="images/service/management.png" alt="Management">
+                    <h4>Management</h4>
+                    <p>Experience with PMI management with 25 years of IT products in a variety of business industries acting
+                      as project manager or contributing as scrum master or product owner in fast pace environments</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Services block -->
+
+            <!-- Clients block -->
+            <div class="block-title">
+              <h3>Clients</h3>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="http://www.oi.com.br/" target="_blank">
+                    <img src="images/clients/oi.png" alt="image">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="http://www.petrobras.com.br/en/" target="_blank">
+                    <img src="images/clients/petrobras.png" alt="image">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="https://www.repsol.com/en/index.cshtml" target="_blank">
+                    <img src="images/clients/repsol.png" alt="image">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="https://www.accenture.com" target="_blank">
+                    <img src="images/clients/acc.jfif" alt="image">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="https://www.telefonica.com/en/home" target="_blank">
+                    <img src="images/clients/telefonica.png" alt="image">
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="https://www.saphyr.com.br" target="_blank">
+                    <img src="images/clients/saphyr.png" alt="image">
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="https://www.michelin.com/eng/" target="_blank">
+                    <img src="images/clients/michelin.png" alt="image">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="http://www.vale.com/brasil/EN/Pages/default.aspx" target="_blank">
+                    <img src="images/clients/vale.png" alt="image">
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="http://www.csn.com.br/default_eni.asp?idioma=1" target="_blank">
+                    <img src="images/clients/csn.png" alt="image">
+                  </a>
+                </div>
+              </div>
+
+
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="https://www.nestleusa.com/" target="_blank">
+                    <img src="images/clients/nestle.png" alt="image">
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-2 subpage-block">
+                <div class="client_block">
+                  <a href="https://www.unilever.com/" target="_blank">
+                    <img src="images/clients/unilever.png" alt="image">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- End of Clients block -->
+
+            <!-- Fun facts block -->
+            <div class="block-title">
+              <h3>Fun Facts</h3>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="fun-fact-block gray-bg">
+                  <i class="pe-7s-icon pe-7s-smile"></i>
+                  <h4>Large Rollout</h4>
+                  <span class="fun-value">+30,000 users</span>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="fun-fact-block">
+                  <i class="pe-7s-icon pe-7s-alarm"></i>
+                  <h4>Outsourcing Management</h4>
+                  <span class="fun-value">22 IT companies</span>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="fun-fact-block gray-bg">
+                  <i class="pe-7s-icon pe-7s-medal"></i>
+                  <h4>New Technologies</h4>
+                  <span class="fun-value">+20 last 25 years</span>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 subpage-block">
+                <div class="fun-fact-block">
+                  <i class="pe-7s-icon pe-7s-coffee"></i>
+                  <h4>Diet Coke Consumed</h4>
+                  <span class="fun-value">50,000</span>
+                </div>
+              </div>
+            </div>
+            <!-- End of Fun fucts block -->
+          </section>
+          <!-- End of About Me Subpage -->
+
+          <!-- Resume Subpage -->
+          <section class="pt-page pt-page-3" data-id="resume">
+            <div class="section-title-block">
+              <h2 class="section-title">Resume</h2>
+              <h5 class="section-description">+25 Years of Experience</h5>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-4 subpage-block">
+                <div class="block-title">
+                  <h3>Education</h3>
+                </div>
+                <div class="timeline">
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">2018</h5>
+                    <h4 class="event-name">Specialization Course</h4>
+                    <span class="event-description">University of Central Florida</span>
+                    <p>Coding Bootcamp - 6 months</p>
+                  </div>
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">2008</h5>
+                    <h4 class="event-name">Specialization Course</h4>
+                    <span class="event-description">PMI - Project Management Institute - DC</span>
+                    <p>PMI course at DC - Dinsmore Compass</p>
+                  </div>
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">2003</h5>
+                    <h4 class="event-name">Post Graduation - MBA</h4>
+                    <span class="event-description">Federal University of Rio de Janeiro</span>
+                    <p>Marketing with emphasis in Technology - CRM and B.I/D.W</p>
+                  </div>
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">1995</h5>
+                    <h4 class="event-name">Bachelor Course</h4>
+                    <span class="event-description">PUC - Pontific Catholic University of Rio de Janeiro</span>
+                    <p>Information Technology</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 subpage-block">
+                <div class="block-title">
+                  <h3>Experience</h3>
+                </div>
+                <div class="timeline">
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">Aug 2012 - Jan 2017</h5>
+                    <h4 class="event-name">Senior Manager</h4>
+                    <span class="event-description">3Con Consulting</span>
+                    <p>Oi Telecom Workforce management program. 25000 Technicians using Click software. Managing functional and technical requirements</p>
+                  </div>
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">Mar 2007 - Aug 2012</h5>
+                    <h4 class="event-name">Manager</h4>
+                    <span class="event-description">Accenture Consulting</span>
+                    <p>Lead important programs of Oi Telecom(9 digit, Portability), SAP at Repsol and Shell's PMO Outsourcing and PeopleSoft CRM at Petrobras</p>
+                  </div>
+                  <!-- Single event -->
+                  <div class="timeline-event te-primary">
+                    <h5 class="event-date">Aug 2000 - Mar 2005</h5>
+                    <h4 class="event-name">Manager</h4>
+                    <span class="event-description">Webb Consultoria, eBusiness and Outsourcing</span>
+                    <p>Lead Functional and technical projects as Supply Chain, CRM, DW, Integration, Billing solutions to more than 30% of Brazil’s top 500 firms, such as CVRD, CSN, Nestle, Unilever etc.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 subpage-block">
+                <div class="block-title">
+                  <h3>Management Skills</h3>
+                </div>
+                <div class="skills-info">
+                  <h4>Project Management</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-1"></div>
+                  </div>
+
+                  <h4>Test Management</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-2"></div>
+                  </div>
+
+                  <h4>Functional specifications</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-3"></div>
+                  </div>
+                </div>
+
+                <div class="block-title">
+                  <h3>Coding Skills</h3>
+                </div>
+                <div class="skills-info">
+                  <h4>HML5</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-4"></div>
+                  </div>
+
+                  <h4>CSS3</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-5"></div>
+                  </div>
+
+                  <h4>jQuery</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-6"></div>
+                  </div>
+
+                  <h4>Wordpress</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-7"></div>
+                  </div>
+
+                  <h4>PHP</h4>
+                  <div class="skill-container">
+                    <div class="skill-percentage skill-8"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12">
+                <div class="download-cv-block">
+                  <a class="button" target="_blank" href="images/cvlamenglish2018.pdf">Download CV</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Resume Subpage -->
+
+
+          <!-- Portfolio Subpage -->
+          <section class="pt-page pt-page-4" data-id="portfolio">
+            <div class="section-title-block">
+              <h2 class="section-title">Portfolio</h2>
+              <h5 class="section-description">My last development Works</h5>
+            </div>
+
+            <!-- Portfolio Content -->
+            <div class="portfolio-content">
+
+              <!-- Portfolio filter -->
+              <ul id="portfolio_filters" class="portfolio-filters">
+                <li class="active">
+                  <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="media">Media</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="illustration">Illustration</a>
+                </li>
+                <li>
+                  <a class="filter btn btn-sm btn-link" data-group="video">Video</a>
+                </li>
+              </ul>
+              <!-- End of Portfolio filter -->
+
+              <!-- Portfolio Grid -->
+              <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+                <!-- Portfolio Item 1 -->
+                <figure class="item" data-groups='["all", "media"]'>
+                  <a class="ajax-page-load" href="https://github.com/lamoliveira/5unit-game">
+                    <img src="images/portfolio/trivia.jpg" alt="">
+                    <div>
+                      <h5 class="name">Trivia Game</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 1 -->
+
+                <!-- Portfolio Item 2 
+                <figure class="item" data-groups='["all", "video"]'>
+                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                    <img src="images/portfolio/2.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Video</small>
+                      <i class="fa fa-video-camera"></i>
+                    </div>
+                  </a>
+                </figure>
+                 /Portfolio Item 2 -->
+
+                <!-- Portfolio Item 3 
+                <figure class="item" data-groups='["all","illustration"]'>
+                  <a href="images/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                    <img src="images/portfolio/3.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                 /Portfolio Item 3 -->
+
+                <!-- Portfolio Item 4 -->
+                <figure class="item" data-groups='["all", "media"]'>
+                  <a class="ajax-page-load" href="https://github.com/lamoliveira/unit-4-game">
+                    <img src="images/portfolio/crystal.jpg" alt="">
+                    <div>
+                      <h5 class="name">Crystal Game Collector</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 4 -->
+
+                <!-- Portfolio Item 5 
+                <figure class="item" data-groups='["all", "illustration"]'>
+                  <a href="images/portfolio/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                    <img src="images/portfolio/5.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                 /Portfolio Item 5 -->
+
+                <!-- Portfolio Item 6 -->
+                <figure class="item" data-groups='["all", "media"]'>
+                  <a class="ajax-page-load" href="https://github.com/lamoliveira/movietrivia">
+                    <img src="images/portfolio/movie.jpg" alt="">
+                    <div>
+                      <h5 class="name">Movie Trivia Game</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 6 -->
+
+                <!-- Portfolio Item 7
+                <figure class="item" data-groups='["all", "video"]'>
+                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+                    <img src="images/portfolio/7.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Video</small>
+                      <i class="fa fa-video-camera"></i>
+                    </div>
+                  </a>
+                </figure>
+                 /Portfolio Item 7 -->
+
+                <!-- Portfolio Item 8 -->
+                <figure class="item" data-groups='["all",  "media"]'>
+                  <a class="ajax-page-load" href="https://github.com/lamoliveira/6unit-buttons">
+                    <img src="images/portfolio/gifsearch.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 8 -->
+
+                <!-- Portfolio Item 9 
+                <figure class="item" data-groups='["all","illustration"]'>
+                  <a href="images/portfolio/9.jpg" class="lightbox" title="Mauris Neque Dolor">
+                    <img src="images/portfolio/9.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                 /Portfolio Item 9 -->
+
+                <!-- Portfolio Item 10 
+                <figure class="item" data-groups='["all", "video"]'>
+                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
+                    <img src="images/portfolio/10.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Video</small>
+                      <i class="fa fa-video-camera"></i>
+                    </div>
+                  </a>
+                </figure>
+                 /Portfolio Item 10 -->
+
+                <!-- Portfolio Item 11 
+                <figure class="item" data-groups='["all","illustration"]'>
+                  <a href="images/portfolio/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                    <img src="images/portfolio/11.jpg" alt="">
+                    <div>
+                      <h5 class="name">Project Name</h5>
+                      <small>Illustration</small>
+                      <i class="fa fa-image"></i>
+                    </div>
+                  </a>
+                </figure>
+                 /Portfolio Item 11 -->
+
+                <!-- Portfolio Item 12 -->
+                <figure class="item" data-groups='["all","media"]'>
+                  <a class="ajax-page-load" href="https://github.com/lamoliveira/7unit">
+                    <img src="images/portfolio/train.jpg" alt="">
+                    <div>
+                      <h5 class="name">Train Schedule App with Firebase</h5>
+                      <small>Media</small>
+                      <i class="fa fa-file-text-o"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- /Portfolio Item 12 -->
+              </div>
+              <!-- /Portfolio Grid -->
+
+            </div>
+            <!-- /Portfolio Content -->
+
+          </section>
+          <!-- /Portfolio Subpage -->
+
+          <!-- Blog Subpage -->
+          <section class="pt-page pt-page-5" data-id="blog">
+            <div class="section-title-block">
+              <h2 class="section-title">Blog</h2>
+              <h5 class="section-description">My Diary</h5>
+            </div>
+            <div class="blog-masonry">
+              <!-- Blog Post 1 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="images/blog/blog_post_1.jpg" alt="blog-post-1" />
+                      <div class="mask"></div>
+                      <div class="post-date">
+                        <span class="day">6</span>
+                        <span class="month">Dec</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li>
+                        <a href="#">Travel</a>
+                      </li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Bootstrap is the Most Popular Framework</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 1 -->
+
+              <!-- Blog Post 2 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="images/blog/blog_post_2.jpg" alt="blog-post-2" />
+                      <div class="mask"></div>
+                      <div class="post-date">
+                        <span class="day">3</span>
+                        <span class="month">Nov</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li>
+                        <a href="#">jQuery</a>
+                      </li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">One Framework, Every Device</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 2 -->
+
+              <!-- Blog Post 3 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="images/blog/blog_post_3.jpg" alt="blog-post-3" />
+                      <div class="mask"></div>
+                      <div class="post-date">
+                        <span class="day">12</span>
+                        <span class="month">Oct</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li>
+                        <a href="#">Sport</a>
+                      </li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Designed for Everyone, Everywhere</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 3 -->
+
+              <!-- Blog Post 4 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="images/blog/blog_post_4.jpg" alt="blog-post-4" />
+                      <div class="mask"></div>
+                      <div class="post-date">
+                        <span class="day">18</span>
+                        <span class="month">Aug</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li>
+                        <a href="#">CSS</a>
+                      </li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">An Introduction To PostCSS</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 4 -->
+
+              <!-- Blog Post 5 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="images/blog/blog_post_5.jpg" alt="blog-post-5" />
+                      <div class="mask"></div>
+                      <div class="post-date">
+                        <span class="day">2</span>
+                        <span class="month">Jul</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li>
+                        <a href="#">CSS3</a>
+                      </li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Original and Innovative Web Layouts</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 5 -->
+
+              <!-- Blog Post 6 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="images/blog/blog_post_6.jpg" alt="blog-post-6" />
+                      <div class="mask"></div>
+                      <div class="post-date">
+                        <span class="day">8</span>
+                        <span class="month">May</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li>
+                        <a href="#">HTML5</a>
+                      </li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Creative and Innovative Navigation Designs</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 6 -->
+
+              <!-- Blog Post 7 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="images/blog/blog_post_7.jpg" alt="blog-post-7" />
+                      <div class="mask"></div>
+                      <div class="post-date">
+                        <span class="day">7</span>
+                        <span class="month">Apr</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li>
+                        <a href="#">Design</a>
+                      </li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Navigation for Mega-Sites</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 7 -->
+
+              <!-- Blog Post 8 -->
+              <div class="item">
+                <div class="blog-card">
+                  <div class="media-block">
+                    <a href="blog-post-1.html">
+                      <img class="post-image img-responsive" src="images/blog/blog_post_8.jpg" alt="blog-post-8" />
+                      <div class="mask"></div>
+                      <div class="post-date">
+                        <span class="day">21</span>
+                        <span class="month">Mar</span>
+                        <!--<span class="year">2016</span>-->
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post-info">
+                    <ul class="category">
+                      <li>
+                        <a href="#">CSS3</a>
+                      </li>
+                    </ul>
+                    <a href="blog-post-1.html">
+                      <h4 class="blog-item-title">Front-End Challenge Accepted: CSS 3D Cube</h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- End of Blog Post 8 -->
+            </div>
+          </section>
+          <!-- End Blog Subpage -->
+
+          <!-- Contact Subpage -->
+          <section class="pt-page pt-page-6" data-id="contact">
+            <div class="section-title-block">
+              <h2 class="section-title">Contact</h2>
+              <h5 class="section-description">Get in Touch</h5>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="block-title">
+                  <h3>Get in Touch</h3>
+                </div>
+                <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas.
+                  Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.</p>
+                <div class="contact-info-block">
+                  <div class="ci-icon">
+                    <i class="pe-7s-icon pe-7s-map-marker"></i>
+                  </div>
+                  <div class="ci-text">
+                    <h5>Orlando, FL, USA</h5>
+                  </div>
+                </div>
+                <div class="contact-info-block">
+                  <div class="ci-icon">
+                    <i class="pe-7s-icon pe-7s-mail"></i>
+                  </div>
+                  <div class="ci-text">
+                    <h5>lamoliveira@gmail.com</h5>
+                  </div>
+                </div>
+                <div class="contact-info-block">
+                  <div class="ci-icon">
+                    <i class="pe-7s-icon pe-7s-call"></i>
+                  </div>
+                  <div class="ci-text">
+                    <h5>+1 407 427 4178</h5>
+                  </div>
+                </div>
+                <div class="contact-info-block">
+                  <div class="ci-icon">
+                    <i class="pe-7s-icon pe-7s-check"></i>
+                  </div>
+                  <div class="ci-text">
+                    <h5>Freelance Available</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="block-title">
+                  <h3>Contact Form</h3>
+                </div>
+                <form id="contact-form" method="post" action="contact_form/contact_form.php">
+
+                  <div class="messages"></div>
+
+                  <div class="controls">
+                    <div class="form-group">
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                      <div class="form-control-border"></div>
+                      <i class="form-control-icon fa fa-user"></i>
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                      <div class="form-control-border"></div>
+                      <i class="form-control-icon fa fa-envelope"></i>
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required"
+                        data-error="Please, leave me a message."></textarea>
+                      <div class="form-control-border"></div>
+                      <i class="form-control-icon fa fa-comment"></i>
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-callback="correctCaptcha"></div>
+
+                    <input type="submit" class="button btn-send" value="Send message">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+          <!-- End Contact Subpage -->
+
+        </div>
+      </div>
+      <!-- /Page changer wrapper -->
+    </div>
+    <!-- /Main Content -->
+  </div>
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/page-transition.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/validator.js"></script>
+  <script src="js/jquery.shuffle.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.hoverdir.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
