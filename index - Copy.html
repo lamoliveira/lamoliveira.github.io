@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -646,16 +645,14 @@
                  Portfolio Item 1 -->
                 <figure class="item" data-groups='["all", "media"]'>
                   <a href="https://lamoliveira.github.io/5unit-game/">
-                    <img src="images/portfolio/trivia.jpg" alt="">
+                    <img  src="images/portfolio/trivia.jpg" alt="">
                     <div>
                       <h5 class="name">Trivia Game</h5>
                       <small>Media</small>
                       <i class="fa fa-file-text-o"></i>
                     </div>
                   </a>
-                  <figurecaption>
-                    <a href="https://github.com/lamoliveira/5unit-game">Github Repo</a>
-                  </figurecaption>
+                  <figurecaption><a href="https://github.com/lamoliveira/5unit-game">Github Repo</a> </figurecaption>
                 </figure>
                 <!-- /Portfolio Item 1 -->
 
@@ -688,17 +685,15 @@
                 <!-- Portfolio Item 4 -->
                 <figure class="item" data-groups='["all", "media"]'>
                   <a href="https://lamoliveira.github.io/unit-4-game/">
-
-                    <img src="images/portfolio/crystal.jpg" alt="">
+                
+                    <img  src="images/portfolio/crystal.jpg" alt="">
                     <div>
                       <h5 class="name">Crystal Game Collector</h5>
                       <small>Media</small>
                       <i class="fa fa-file-text-o"></i>
                     </div>
                   </a>
-                  <figurecaption>
-                    <a href="https://github.com/lamoliveira/unit-4-game">Github Repo</a>
-                  </figurecaption>
+                  <figurecaption><a href="https://github.com/lamoliveira/unit-4-game">Github Repo</a></figurecaption>
                 </figure>
                 <!-- /Portfolio Item 4 -->
 
@@ -718,16 +713,14 @@
                 <!-- Portfolio Item 6 -->
                 <figure class="item" data-groups='["all", "media"]'>
                   <a href="https://lamoliveira.github.io/movietrivia">
-                    <img src="images/portfolio/movie.jpg" alt="">
+                    <img  src="images/portfolio/movie.jpg" alt="">
                     <div>
                       <h5 class="name">Movie Trivia Game</h5>
                       <small>Media</small>
                       <i class="fa fa-file-text-o"></i>
                     </div>
                   </a>
-                  <figurecaption>
-                    <a href="https://github.com/lamoliveira/movietrivia">Github Repo</a>
-                  </figurecaption>
+                  <figurecaption><a href="https://github.com/lamoliveira/movietrivia">Github Repo</a></figurecaption>
                 </figure>
                 <!-- /Portfolio Item 6 -->
 
@@ -747,16 +740,14 @@
                 <!-- Portfolio Item 8 -->
                 <figure class="item" data-groups='["all",  "media"]'>
                   <a href="https://lamoliveira.github.io/6unit-buttons/">
-                    <img src="images/portfolio/gifsearch.jpg" alt="">
+                    <img  src="images/portfolio/gifsearch.jpg" alt="">
                     <div>
                       <h5 class="name">Project Name</h5>
                       <small>Media</small>
                       <i class="fa fa-file-text-o"></i>
                     </div>
                   </a>
-                  <figurecaption>
-                    <a href="https://github.com/lamoliveira/6unit-buttons">Github Repo</a>
-                  </figurecaption>
+                  <figurecaption><a href="https://github.com/lamoliveira/6unit-buttons">Github Repo</a></figurecaption>
                 </figure>
                 <!-- /Portfolio Item 8 -->
 
@@ -802,16 +793,14 @@
                 <!-- Portfolio Item 12 -->
                 <figure class="item" data-groups='["all","media"]'>
                   <a href="https://lamoliveira.github.io/7unit/">
-                    <img src="images/portfolio/train.jpg" alt="">
+                    <img  src="images/portfolio/train.jpg" alt="">
                     <div>
                       <h5 class="name">Train Schedule App with Firebase</h5>
                       <small>Media</small>
                       <i class="fa fa-file-text-o"></i>
                     </div>
                   </a>
-                  <figurecaption>
-                    <a href="https://lamoliveira.github.io/7unit">Github Repo</a>
-                  </figurecaption>
+                  <figurecaption><a href="https://lamoliveira.github.io/7unit">Github Repo</a></figurecaption>
                 </figure>
                 <!-- /Portfolio Item 12 -->
               </div>
@@ -1079,20 +1068,42 @@
                 </div>
               </div>
 
-              <div id="formportfolio" class="col-sm-6 col-md-6 subpage-block">
-                <script id="bx24_form_inline" data-skip-moving="true">
-                  (function (w, d, u, b) {
-                  w['Bitrix24FormObject'] = b; w[b] = w[b] || function () {
-                    arguments[0].ref = u;
-                    (w[b].forms = w[b].forms || []).push(arguments[0])
-                  };
-                    if (w[b]['forms']) return;
-                    var s = d.createElement('script'); s.async = 1; s.src = u + '?' + (1 * new Date());
-                    var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h);
-                  })(window, document, 'http://bitrix.fasolti.com.br/bitrix/js/crm/form_loader.js', 'b24form');
+              <div class="col-sm-6 col-md-6 subpage-block">
+                <div class="block-title">
+                  <h3>Contact Form</h3>
+                </div>
+                <form id="contact-form" method="post" action="contact_form/contact_form.php">
 
-                  b24form({ "id": "3", "lang": "br", "sec": "wxfjgv", "type": "inline" });
-                </script>
+                  <div class="messages"></div>
+
+                  <div class="controls">
+                    <div class="form-group">
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                      <div class="form-control-border"></div>
+                      <i class="form-control-icon fa fa-user"></i>
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                      <div class="form-control-border"></div>
+                      <i class="form-control-icon fa fa-envelope"></i>
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required"
+                        data-error="Please, leave me a message."></textarea>
+                      <div class="form-control-border"></div>
+                      <i class="form-control-icon fa fa-comment"></i>
+                      <div class="help-block with-errors"></div>
+                    </div>
+<!--correctCaptcha data-callback="correctCaptcha"-->
+                    <div class="g-recaptcha" data-sitekey="6LcRi2QUAAAAAGRBOMNm867xNr_u_Jo8GZHtOjN9"></div>
+
+                    <input type="submit" class="button btn-send" value="Send message">
+                  </div>
+                </form>
               </div>
             </div>
           </section>
