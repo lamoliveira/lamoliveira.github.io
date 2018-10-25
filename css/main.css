@@ -1122,27 +1122,27 @@ ul.social-links li:last-child a {
 }
 /*Skill 3*/
 .skill-percentage.skill-3 {
-  width: 80%;
+  width: 90%;
 }
 /*Skill 4*/
 .skill-percentage.skill-4 {
-  width: 25%;
+  width: 75%;
 }
 /*Skill 5*/
 .skill-percentage.skill-5 {
-  width: 25%;
+  width: 75%;
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
-  width: 50%;
+  width: 75%;
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
-  width: 10%;
+  width: 50%;
 }
 /*Skill 8*/
 .skill-percentage.skill-8 {
-  width: 10%;
+  width: 25%;
 }
 /* Skills */
 
@@ -1176,7 +1176,7 @@ ul.social-links li:last-child a {
 .portfolio-grid img {
   position: relative;
   display: block;
-  width: 100%;
+  width: 95%;
 }
 
 .portfolio-filters {
